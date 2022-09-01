@@ -16,7 +16,7 @@ class User extends Authenticatable
     const USER_CUSTOMER = 'customer';
     const USER_BABY_SISTER = 'babysister';
     const USER_ADMIN = 'admin';
-    
+
     /**
      * The attributes that are mass assignable.
      *
