@@ -16,7 +16,7 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        $noOfRows = 20;
+        $noOfRows = 60;
         $range = range(1, $noOfRows);
         $chunksize = 1000;
         $faker = Faker::create();
